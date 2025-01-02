@@ -5,6 +5,9 @@
     <param name="action_server_name" type="str" value="move_base" />
     <param name="obstacle_search_distance_in_meters" type="double" value="0.2" />
     <param name="goal_text_file_path" value="$(find isaac_ros_navigation_goal)/assets/goals.txt" />
+
     <rosparam param="initial_pose">[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] </rosparam>
+
     <node name="set_navigation_goal" pkg="isaac_ros_navigation_goal" type="set_goal.py" output="screen"/>
+
 </launch>
