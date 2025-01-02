@@ -1,5 +1,6 @@
 <launch>
-    <param name="map_yaml_path" value="$(find isaac_ros_navigation_goal)/assets/carter_warehouse_navigation.yaml" />
+    <!-- <param name="map_yaml_path" value="$(find isaac_ros_navigation_goal)/assets/carter_warehouse_navigation.yaml" /> -->
+    <param name="map_yaml_path" value="$(find isaac_ros_navigation_goal)/assets/map_aws_sim.yaml" />
     <param name="iteration_count" type="int" value="3" />
     <param name="goal_generator_type" type="str" value="RandomGoalGenerator" />
     <param name="obstacle_search_distance_in_meters" type="double" value="0.2" />
